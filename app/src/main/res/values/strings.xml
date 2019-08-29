@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Pabitrarista</string>
 
-    <string name="login_text_1">Directly Contact or send interests\nto your matches</string>
-    <string name="login_text_2">Register with Facebook</string>
-    <string name="login_text_3">Register with phone/gmail</string>
-    <string name="login_text_4">Already a member?</string>
-    <string name="login_text_5">LOGIN NOW</string>
+    <string name="register_text_1">Directly Contact or send interests\nto your matches</string>
+    <string name="register_text_2">Register with Facebook</string>
+    <string name="register_text_3">Register with phone/gmail</string>
+    <string name="register_text_4">Already a member?</string>
+    <string name="register_text_5">LOGIN NOW</string>
+
+    <string name="login_text_1">or</string>
+    <string name="login_text_2">Enter Gmail</string>
+    <string name="login_text_3">Enter Password</string>
+    <string name="login_text_4">Forgot Password?</string>
+    <string name="login_text_5">Free Register</string>
 </resources>

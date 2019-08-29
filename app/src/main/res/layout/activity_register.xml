@@ -7,7 +7,7 @@
     tools:context=".RegisterActivity">
 
     <ImageView
-        android:id="@+id/login_image_1"
+        android:id="@+id/register_image_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -15,24 +15,24 @@
         app:srcCompat="@drawable/ic_image_icon" />
 
     <TextView
-        android:id="@+id/login_text_view_1"
+        android:id="@+id/register_text_view_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/login_image_1"
+        android:layout_below="@+id/register_image_1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:fontFamily="serif"
         android:gravity="center"
-        android:text="@string/login_text_1"
+        android:text="@string/register_text_1"
         android:textColor="@color/pink"
-        android:textSize="@dimen/login_textSize1"
+        android:textSize="@dimen/register_textSize1"
         android:textStyle="bold" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/login_facebook"
+        android:id="@+id/register_facebook"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/login_text_view_1"
+        android:layout_below="@+id/register_text_view_1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         app:cardCornerRadius="25dp"
@@ -58,17 +58,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:fontFamily="sans-serif"
-                android:text="@string/login_text_2"
+                android:text="@string/register_text_2"
                 android:textColor="@color/green_facebook" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/login_gmail"
+        android:id="@+id/register_gmail"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/login_facebook"
+        android:layout_below="@+id/register_facebook"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         app:cardCornerRadius="25dp"
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:fontFamily="sans-serif"
-                android:text="@string/login_text_3"
+                android:text="@string/register_text_3"
                 android:textColor="@color/pink_gmail" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -102,7 +102,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/login_gmail"
+        android:layout_below="@+id/register_gmail"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:orientation="horizontal">
@@ -112,17 +112,18 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:fontFamily="sans-serif"
-            android:text="@string/login_text_4"
+            android:text="@string/register_text_4"
             android:textColor="@color/pink"
-            android:textSize="@dimen/login_textSize1" />
+            android:textSize="@dimen/register_textSize1" />
 
         <TextView
+            android:id="@+id/register_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:fontFamily="sans-serif"
-            android:text="@string/login_text_5"
+            android:text="@string/register_text_5"
             android:textColor="@color/pink"
-            android:textSize="@dimen/login_textSize1" />
+            android:textSize="@dimen/register_textSize1" />
     </LinearLayout>
 </RelativeLayout>

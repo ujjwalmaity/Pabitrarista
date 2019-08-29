@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
+    <color name="white">#ffffff</color>
     <color name="pink">#d0093b</color>
     <color name="green_facebook">#3b5998</color>
     <color name="pink_gmail">#f44336</color>

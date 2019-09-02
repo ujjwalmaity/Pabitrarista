@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="20dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -71,7 +71,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
-            android:text="@string/login_text_1" />
+            android:text="@string/login_text_1"
+            android:textColor="@color/pink" />
 
         <View
             android:layout_width="120dp"
